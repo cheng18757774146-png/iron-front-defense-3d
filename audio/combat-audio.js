@@ -2,7 +2,7 @@
 // No external recordings or downloads. The game owns the AudioContext lifecycle.
 const singleScreenStyles = document.createElement("link");
 singleScreenStyles.rel = "stylesheet";
-singleScreenStyles.href = "/iron-front-defense-3d/layout-single-screen.css?v=1";
+singleScreenStyles.href = "/iron-front-defense-3d/layout-single-screen.css?v=2";
 document.head.append(singleScreenStyles);
 
 export class CombatAudio {

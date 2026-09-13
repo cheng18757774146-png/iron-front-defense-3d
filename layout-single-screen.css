@@ -3,27 +3,28 @@ html,
 body {
   width: 100%;
   min-height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
   overscroll-behavior-x: none;
   overscroll-behavior-y: auto;
 }
 
 body {
-  position: static;
+  position: static !important;
+  inset: auto !important;
 }
 
 .command-shell {
   min-height: 100dvh;
-  max-height: none;
-  overflow: visible;
+  max-height: none !important;
+  overflow: visible !important;
 }
 @media (min-width: 901px) and (min-height: 650px) {
   html,
   body {
     height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
   }
 
   .command-shell {
@@ -98,7 +99,7 @@ body {
 
 @media (max-height: 700px) and (min-width: 560px) {
   html,
-  body { height: 100%; overflow-x: hidden; overflow-y: auto; }
+  body { height: 100%; overflow-x: hidden !important; overflow-y: auto !important; }
   .command-shell {
     width: 100%;
     height: 100dvh;

@@ -31,6 +31,7 @@
   .battle-column {
     display: grid;
     grid-template-rows: minmax(0, 1fr) 25px 104px;
+    overflow: hidden;
   }
   .battlefield {
     min-height: 0;
@@ -39,7 +40,13 @@
   }
   .map-surface { min-height: 0; height: auto; aspect-ratio: auto; overflow: hidden; }
   .arsenal-heading { margin: 5px 0 3px; }
-  .arsenal { grid-template-columns: repeat(5, 1fr); gap: 7px; }
+  .arsenal {
+    position: relative;
+    z-index: 5;
+    min-height: 104px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7px;
+  }
   .weapon-card { height: 104px; padding: 6px 9px; }
   .weapon-image { height: 48px; }
   .weapon-purpose { margin-top: 3px; font-size: 9px; }
@@ -107,6 +114,7 @@
     min-height: 0;
     display: grid;
     grid-template-rows: minmax(0, 1fr) 18px 74px;
+    overflow: hidden;
   }
   .battlefield {
     min-height: 0;
@@ -121,7 +129,13 @@
   .arsenal-heading > span,
   .arsenal-heading h2 span { display: none; }
   .arsenal-heading h2 { font-size: 10px; }
-  .arsenal { grid-template-columns: repeat(5, 1fr); gap: 3px; }
+  .arsenal {
+    position: relative;
+    z-index: 5;
+    min-height: 74px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3px;
+  }
   .weapon-card { height: 74px; padding: 3px 5px; }
   .weapon-top { font-size: 8px; }
   .weapon-image { height: 34px; }

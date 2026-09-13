@@ -32,8 +32,12 @@
     display: grid;
     grid-template-rows: minmax(0, 1fr) 25px 104px;
   }
-  .battlefield { min-height: 0; }
-  .map-surface { height: calc(100% - 33px); aspect-ratio: auto; }
+  .battlefield {
+    min-height: 0;
+    display: grid;
+    grid-template-rows: 48px minmax(0, 1fr) 39px;
+  }
+  .map-surface { min-height: 0; height: auto; aspect-ratio: auto; overflow: hidden; }
   .arsenal-heading { margin: 5px 0 3px; }
   .arsenal { grid-template-columns: repeat(5, 1fr); gap: 7px; }
   .weapon-card { height: 104px; padding: 6px 9px; }
@@ -104,9 +108,13 @@
     display: grid;
     grid-template-rows: minmax(0, 1fr) 18px 74px;
   }
-  .battlefield { min-height: 0; }
+  .battlefield {
+    min-height: 0;
+    display: grid;
+    grid-template-rows: 28px minmax(0, 1fr) 25px;
+  }
   .battle-hud { padding: 4px 7px; }
-  .map-surface { height: calc(100% - 25px); aspect-ratio: auto; }
+  .map-surface { min-height: 0; height: auto; aspect-ratio: auto; overflow: hidden; }
   .map-bottom { height: 25px; padding: 0 7px; font-size: 9px; }
   .camera-toolbar { right: 5px; bottom: 5px; }
   .arsenal-heading { margin: 2px 0 1px; }

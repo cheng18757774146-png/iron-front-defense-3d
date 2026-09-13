@@ -51,7 +51,12 @@
   .weapon-image { height: 48px; }
   .weapon-purpose { margin-top: 3px; font-size: 9px; }
 
-  .command-panel { height: 100%; overflow: hidden; }
+  .command-panel {
+    height: fit-content;
+    max-height: 100%;
+    align-self: start;
+    overflow: auto;
+  }
   .panel-title { height: 38px; padding: 0 12px; }
   .objective,
   .unit-details,
@@ -65,7 +70,7 @@
   .deploy-tip { margin-top: 7px; padding: 7px; }
   .air-support button { min-height: 43px; padding: 6px 8px; }
   .air-support button small { font-size: 9px; }
-  .wave-control { padding-top: 8px; }
+  .wave-control { margin-top: 0; padding-top: 8px; }
   .wave-control > small { display: none; }
   .start-wave { min-height: 39px; }
   footer { padding: 4px 0; }

@@ -52,10 +52,15 @@ body {
   .battle-column {
     display: grid;
     grid-template-rows: minmax(0, 1fr) 25px 104px;
-    overflow: hidden;
+    align-self: stretch;
+    overflow: visible;
   }
   .battlefield {
     min-height: 0;
+    position: sticky;
+    top: 8px;
+    z-index: 4;
+    align-self: start;
     display: grid;
     grid-template-rows: 48px minmax(0, 1fr) 39px;
   }

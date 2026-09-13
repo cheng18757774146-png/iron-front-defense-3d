@@ -207,3 +207,16 @@ body {
   .wave-control > small,
   footer { display: none; }
 }
+
+/* Fixed battlefield camera: compact status badge, no view or zoom controls. */
+.camera-toolbar.fixed-camera {
+  pointer-events: none;
+  padding: 5px 9px;
+}
+.camera-toolbar.fixed-camera span {
+  border: 0;
+  color: var(--muted, #9ca68b);
+  font-size: 11px;
+  letter-spacing: .08em;
+  white-space: nowrap;
+}

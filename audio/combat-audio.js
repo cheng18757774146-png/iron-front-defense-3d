@@ -1,5 +1,10 @@
 // Procedural combat Foley: cached noise, pressure waves, mechanical transients.
 // No external recordings or downloads. The game owns the AudioContext lifecycle.
+const singleScreenStyles = document.createElement("link");
+singleScreenStyles.rel = "stylesheet";
+singleScreenStyles.href = "/iron-front-defense-3d/layout-single-screen.css?v=1";
+document.head.append(singleScreenStyles);
+
 export class CombatAudio {
   constructor(context) {
     this.context = context;

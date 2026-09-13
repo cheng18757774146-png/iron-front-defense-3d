@@ -1,0 +1,143 @@
+/* Single-screen command layout for desktop and landscape play. */
+@media (min-width: 901px) and (min-height: 650px) {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .command-shell {
+    height: 100dvh;
+    max-width: 1720px;
+    display: grid;
+    grid-template-rows: 54px 50px 78px minmax(0, 1fr) 24px;
+  }
+
+  .topbar { height: 54px; }
+  .map-selector { padding-top: 6px; }
+  .map-selector button { min-height: 40px; padding: 5px 10px; }
+  .mission-bar { padding: 8px 0; }
+  .mission-bar h1 { font-size: 25px; }
+  .mission-description { margin-top: 2px; font-size: 11px; }
+  .stat { gap: 3px; min-width: 126px; padding: 0 15px; }
+  .stat > strong { font-size: 22px; }
+  .stat small { font-size: 9px; }
+
+  .game-layout,
+  .battle-column,
+  .command-panel { min-height: 0; }
+
+  .game-layout { height: 100%; }
+  .battle-column {
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) 25px 104px;
+  }
+  .battlefield { min-height: 0; }
+  .map-surface { height: calc(100% - 33px); aspect-ratio: auto; }
+  .arsenal-heading { margin: 5px 0 3px; }
+  .arsenal { grid-template-columns: repeat(5, 1fr); gap: 7px; }
+  .weapon-card { height: 104px; padding: 6px 9px; }
+  .weapon-image { height: 48px; }
+  .weapon-purpose { margin-top: 3px; font-size: 9px; }
+
+  .command-panel { height: 100%; overflow: hidden; }
+  .panel-title { height: 38px; padding: 0 12px; }
+  .objective,
+  .unit-details,
+  .air-support,
+  .wave-control { padding: 10px 12px; }
+  .objective p,
+  .unit-details > p { margin: 4px 0; font-size: 11px; line-height: 1.35; }
+  .objective h2,
+  .unit-title { margin: 3px 0; font-size: 15px; }
+  .unit-stats { margin-top: 7px; }
+  .deploy-tip { margin-top: 7px; padding: 7px; }
+  .air-support button { min-height: 43px; padding: 6px 8px; }
+  .air-support button small { font-size: 9px; }
+  .wave-control { padding-top: 8px; }
+  .wave-control > small { display: none; }
+  .start-wave { min-height: 39px; }
+  footer { padding: 4px 0; }
+}
+
+@media (orientation: landscape) and (max-height: 650px) and (min-width: 680px) {
+  html,
+  body { height: 100%; overflow: hidden; }
+  .command-shell {
+    width: 100%;
+    height: 100dvh;
+    padding: 0 10px;
+    display: grid;
+    grid-template-rows: 34px 36px 38px minmax(0, 1fr);
+  }
+  .topbar { height: 34px; }
+  .brand small,
+  .header-mode,
+  .online { display: none; }
+  .map-selector { gap: 5px; padding-top: 3px; }
+  .map-selector button {
+    min-height: 31px;
+    grid-template-columns: 20px 1fr;
+    gap: 4px;
+    padding: 3px 6px;
+  }
+  .map-selector em,
+  .map-selector strong small { display: none; }
+  .map-selector strong { font-size: 11px; }
+  .mission-bar { flex-direction: row; align-items: center; padding: 2px 0; }
+  .mission-bar .eyebrow,
+  .mission-description,
+  .stats .stat > span,
+  .stats .stat small,
+  .health-track { display: none; }
+  .mission-bar h1 { font-size: 16px; }
+  .stats .stat { min-width: 57px; gap: 0; padding: 0 6px; }
+  .stats .stat > strong { font-size: 15px; }
+  .game-layout {
+    min-height: 0;
+    height: 100%;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 7px;
+  }
+  .battle-column {
+    min-height: 0;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) 18px 74px;
+  }
+  .battlefield { min-height: 0; }
+  .battle-hud { padding: 4px 7px; }
+  .map-surface { height: calc(100% - 25px); aspect-ratio: auto; }
+  .map-bottom { height: 25px; padding: 0 7px; font-size: 9px; }
+  .camera-toolbar { right: 5px; bottom: 5px; }
+  .arsenal-heading { margin: 2px 0 1px; }
+  .arsenal-heading > span,
+  .arsenal-heading h2 span { display: none; }
+  .arsenal-heading h2 { font-size: 10px; }
+  .arsenal { grid-template-columns: repeat(5, 1fr); gap: 3px; }
+  .weapon-card { height: 74px; padding: 3px 5px; }
+  .weapon-top { font-size: 8px; }
+  .weapon-image { height: 34px; }
+  .weapon-name,
+  .weapon-name > span { font-size: 9px; }
+  .weapon-purpose { display: none; }
+  .command-panel { min-height: 0; height: 100%; overflow: hidden; display: flex; }
+  .panel-title { height: 28px; padding: 0 7px; }
+  .objective { display: none; }
+  .unit-details,
+  .air-support,
+  .wave-control { padding: 5px 7px; }
+  .unit-details > p,
+  .deploy-tip { display: none; }
+  .unit-title { margin: 2px 0; font-size: 12px; }
+  .unit-stats { margin-top: 4px; }
+  .unit-stats span { padding: 3px; font-size: 8px; }
+  .air-support { margin-top: auto; }
+  .air-support button { min-height: 32px; padding: 3px 5px; }
+  .air-support button small { display: none; }
+  .air-icon { width: 24px; height: 24px; }
+  .wave-control { margin-top: 0; }
+  .next-wave { margin-bottom: 3px; }
+  .start-wave { min-height: 30px; font-size: 11px; }
+  .wave-control > small,
+  footer { display: none; }
+}

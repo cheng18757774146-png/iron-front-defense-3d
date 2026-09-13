@@ -19,6 +19,17 @@ body {
   max-height: none !important;
   overflow: visible !important;
 }
+
+.map-surface.three-dimensional .game-overlay {
+  background: linear-gradient(180deg, rgba(10, 16, 11, 0.28), rgba(10, 16, 11, 0.46));
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.map-surface.three-dimensional .game-overlay h2,
+.map-surface.three-dimensional .game-overlay > svg {
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.9));
+}
 @media (min-width: 901px) and (min-height: 650px) {
   html,
   body {

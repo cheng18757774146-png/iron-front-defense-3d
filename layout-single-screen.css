@@ -60,7 +60,7 @@
   footer { padding: 4px 0; }
 }
 
-@media (orientation: landscape) and (max-height: 650px) and (min-width: 680px) {
+@media (max-height: 700px) and (min-width: 560px) {
   html,
   body { height: 100%; overflow: hidden; }
   .command-shell {

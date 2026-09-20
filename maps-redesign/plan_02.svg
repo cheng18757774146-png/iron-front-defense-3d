@@ -1,0 +1,107 @@
+<svg viewBox="0 0 680 548" width="100%" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>地图 02 鹰脊高原 重设计方案</title>
+  <desc>双峡谷相向推进 · 中央岔口 · 台地高塔</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+  <text x="40" y="26" font-size="15" font-weight="500" fill="#F1EFE8">地图 02 · 鹰脊高原 <tspan fill="#888780" font-size="12">EAGLE RIDGE</tspan></text>
+  <text x="40" y="45" font-size="12" fill="#B4B2A9">双峡谷相向推进 · 中央岔口 · 台地高塔</text>
+  <rect x="40" y="58" width="589" height="317" rx="10" fill="#2C2C2A" stroke="#5F5E5A" stroke-width="0.5"/>
+  <line x1="40" y1="80.6" x2="629" y2="80.6" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="40" y1="137.2" x2="629" y2="137.2" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="40" y1="193.8" x2="629" y2="193.8" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="40" y1="250.4" x2="629" y2="250.4" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="40" y1="307.0" x2="629" y2="307.0" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="40" y1="363.6" x2="629" y2="363.6" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="74.0" y1="58" x2="74.0" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="130.6" y1="58" x2="130.6" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="187.2" y1="58" x2="187.2" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="243.8" y1="58" x2="243.8" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="300.4" y1="58" x2="300.4" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="357.0" y1="58" x2="357.0" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="413.6" y1="58" x2="413.6" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="470.2" y1="58" x2="470.2" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="526.8" y1="58" x2="526.8" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <line x1="583.4" y1="58" x2="583.4" y2="375" stroke="#3A3A38" stroke-width="0.5"/>
+  <polyline points="54.1,355.1 187.2,355.1 187.2,273.1 294.7,273.1 294.7,355.1 351.3,355.1 351.3,216.5 470.2,216.5 470.2,329.7 628.6,329.7" fill="none" stroke="#1F1F1E" stroke-width="17" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="54.1,355.1 187.2,355.1 187.2,273.1 294.7,273.1 294.7,355.1 351.3,355.1 351.3,216.5 470.2,216.5 470.2,329.7 628.6,329.7" fill="none" stroke="#F09595" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+  <polyline points="54.1,355.1 187.2,355.1 187.2,273.1 294.7,273.1 294.7,355.1 351.3,355.1 351.3,216.5 470.2,216.5 470.2,329.7 628.6,329.7" fill="none" stroke="#FBEAF0" stroke-width="1.2" stroke-dasharray="7 9" opacity="0.9"/>
+  <polyline points="54.1,89.1 260.7,89.1 260.7,151.4 141.9,151.4 141.9,216.5 351.3,216.5 470.2,216.5 470.2,329.7 628.6,329.7" fill="none" stroke="#1F1F1E" stroke-width="17" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="54.1,89.1 260.7,89.1 260.7,151.4 141.9,151.4 141.9,216.5 351.3,216.5 470.2,216.5 470.2,329.7 628.6,329.7" fill="none" stroke="#EF9F27" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+  <polyline points="54.1,89.1 260.7,89.1 260.7,151.4 141.9,151.4 141.9,216.5 351.3,216.5 470.2,216.5 470.2,329.7 628.6,329.7" fill="none" stroke="#FAEEDA" stroke-width="1.2" stroke-dasharray="7 9" opacity="0.9"/>
+  <path d="M40.1 89.1 L52.1 89.1" fill="none" stroke="#D3D1C7" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="40.1" y="78.1" font-size="11" fill="#B4B2A9" dominant-baseline="central">入口 A</text>
+  <path d="M40.1 355.1 L52.1 355.1" fill="none" stroke="#D3D1C7" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="40.1" y="344.1" font-size="11" fill="#B4B2A9" dominant-baseline="central">入口 B</text>
+  <rect x="109.1" y="229.0" width="9" height="9" rx="2" transform="rotate(45 113.6 233.5)" fill="#97C459" stroke="#27500A" stroke-width="0.5"/>
+  <rect x="213.8" y="299.7" width="9" height="9" rx="2" transform="rotate(45 218.3 304.2)" fill="#97C459" stroke="#27500A" stroke-width="0.5"/>
+  <rect x="420.4" y="110.1" width="9" height="9" rx="2" transform="rotate(45 424.9 114.6)" fill="#97C459" stroke="#27500A" stroke-width="0.5"/>
+  <rect x="567.5" y="212.0" width="9" height="9" rx="2" transform="rotate(45 572.0 216.5)" fill="#97C459" stroke="#27500A" stroke-width="0.5"/>
+  <circle cx="195.6" cy="120.3" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <rect x="182.6" y="107.3" width="26" height="26" rx="7" transform="rotate(45 195.6 120.3)" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="195.6" y="120.3" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">01</text>
+  <text x="195.6" y="96.3" font-size="11" fill="#EF9F27" text-anchor="middle">+63</text>
+  <circle cx="107.9" cy="182.5" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <rect x="94.9" y="169.5" width="26" height="26" rx="7" transform="rotate(45 107.9 182.5)" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="107.9" y="182.5" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">02</text>
+  <text x="107.9" y="158.5" font-size="11" fill="#EF9F27" text-anchor="middle">+46</text>
+  <circle cx="212.6" cy="187.0" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <circle cx="212.6" cy="187.0" r="11" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="212.6" y="187.0" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">03</text>
+  <text x="212.6" y="172.0" font-size="11" fill="#EF9F27" text-anchor="middle">+34</text>
+  <circle cx="240.9" cy="317.2" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <rect x="227.9" y="304.2" width="26" height="26" rx="7" transform="rotate(45 240.9 317.2)" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="240.9" y="317.2" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">04</text>
+  <text x="240.9" y="293.2" font-size="11" fill="#EF9F27" text-anchor="middle">+52</text>
+  <circle cx="107.9" cy="114.6" r="11" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="107.9" y="114.6" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">05</text>
+  <text x="107.9" y="99.6" font-size="11" fill="#EF9F27" text-anchor="middle">+23</text>
+  <circle cx="390.9" cy="278.7" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <circle cx="390.9" cy="278.7" r="11" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="390.9" y="278.7" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">06</text>
+  <text x="390.9" y="263.7" font-size="11" fill="#EF9F27" text-anchor="middle">+23</text>
+  <circle cx="543.7" cy="273.1" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <circle cx="543.7" cy="273.1" r="11" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="543.7" y="273.1" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">07</text>
+  <text x="543.7" y="258.1" font-size="11" fill="#EF9F27" text-anchor="middle">+34</text>
+  <circle cx="413.6" cy="363.6" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <circle cx="413.6" cy="363.6" r="11" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="413.6" y="363.6" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">08</text>
+  <text x="413.6" y="348.6" font-size="11" fill="#EF9F27" text-anchor="middle">+29</text>
+  <circle cx="300.4" cy="182.5" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <rect x="287.4" y="169.5" width="26" height="26" rx="7" transform="rotate(45 300.4 182.5)" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="300.4" y="182.5" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">09</text>
+  <text x="300.4" y="158.5" font-size="11" fill="#EF9F27" text-anchor="middle">+60</text>
+  <circle cx="424.9" cy="176.9" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <rect x="411.9" y="163.9" width="26" height="26" rx="7" transform="rotate(45 424.9 176.9)" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="424.9" y="176.9" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">10</text>
+  <text x="424.9" y="152.9" font-size="11" fill="#EF9F27" text-anchor="middle">+46</text>
+  <circle cx="317.3" cy="249.3" r="15" fill="none" stroke="#EF9F27" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+  <circle cx="317.3" cy="249.3" r="11" fill="#D3D1C7" stroke="#888780" stroke-width="0.5"/>
+  <text x="317.3" y="249.3" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">11</text>
+  <circle cx="158.9" cy="312.7" r="11" fill="#D3D1C7" stroke="#888780" stroke-width="0.5"/>
+  <text x="158.9" y="312.7" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">12</text>
+  <circle cx="543.7" cy="360.8" r="11" fill="#D3D1C7" stroke="#888780" stroke-width="0.5"/>
+  <text x="543.7" y="360.8" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central">13</text>
+  <rect x="580.5" y="318.7" width="34" height="22" rx="5" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="597.5" y="329.7" font-size="11" font-weight="500" fill="#04342C" text-anchor="middle" dominant-baseline="central">基地</text>
+  <text x="40" y="402" font-size="12" fill="#888780" dominant-baseline="central">图例</text>
+  <line x1="86" y1="402" x2="98" y2="402" stroke="#EF9F27" stroke-width="4" stroke-linecap="round"/>
+  <text x="103" y="402" font-size="12" fill="#B4B2A9" dominant-baseline="central">主路</text>
+  <line x1="151" y1="402" x2="163" y2="402" stroke="#F09595" stroke-width="4" stroke-linecap="round"/>
+  <text x="168" y="402" font-size="12" fill="#B4B2A9" dominant-baseline="central">分路（第5波后）</text>
+  <line x1="282.6" y1="402" x2="294.6" y2="402" stroke="#97C459" stroke-width="4" stroke-linecap="round"/>
+  <text x="299.6" y="402" font-size="12" fill="#B4B2A9" dominant-baseline="central">精矿点</text>
+  <line x1="86" y1="422" x2="98" y2="422" stroke="#D3D1C7" stroke-width="4" stroke-linecap="round"/>
+  <text x="103" y="422" font-size="12" fill="#B4B2A9" dominant-baseline="central">平地阵地</text>
+  <line x1="175" y1="422" x2="187" y2="422" stroke="#FAEEDA" stroke-width="4" stroke-linecap="round"/>
+  <text x="192" y="422" font-size="12" fill="#B4B2A9" dominant-baseline="central">高地阵地 +N 射程</text>
+  <line x1="314.4" y1="422" x2="326.4" y2="422" stroke="#EF9F27" stroke-width="4" stroke-linecap="round"/>
+  <text x="331.4" y="422" font-size="12" fill="#B4B2A9" dominant-baseline="central">虚线环＝覆盖≥4段</text>
+  <circle cx="44" cy="446" r="2" fill="#888780"/>
+  <text x="54" y="450" font-size="12" fill="#D3D1C7">南北两条峡谷各带一组发卡弯，在中央岔口（490,300）汇流成一条共享走廊</text>
+  <circle cx="44" cy="469" r="2" fill="#888780"/>
+  <text x="54" y="473" font-size="12" fill="#D3D1C7">主线多了「上行再下行」的折返，总长度与原版基本持平（1860 对 1865）</text>
+  <circle cx="44" cy="492" r="2" fill="#888780"/>
+  <text x="54" y="496" font-size="12" fill="#D3D1C7">延续这张图的招牌设定：13 个阵地里 10 个是台地，射程加成 +23 到 +63</text>
+  <circle cx="44" cy="515" r="2" fill="#888780"/>
+  <text x="54" y="519" font-size="12" fill="#D3D1C7">06 号位位于 L 形拐角内侧，南北两条主线都能吃到，是全图单点收益最高的位置</text>
+</svg>

@@ -11,7 +11,7 @@
     "name": "rolldown-runtime"
   },
   "app/page.tsx": {
-    "file": "iron-front-defense-3d/_next/static/chunks/page-CnWaEn_s.js",
+    "file": "iron-front-defense-3d/_next/static/chunks/page-BNBAtlsL.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -21,7 +21,7 @@
     ]
   },
   "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "iron-front-defense-3d/_next/static/chunks/app-route-prefetch-policy-Bv8UnmZx.js",
+    "file": "iron-front-defense-3d/_next/static/chunks/app-route-prefetch-policy-B6Eodoxv.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -30,7 +30,7 @@
     ]
   },
   "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "iron-front-defense-3d/_next/static/chunks/layout-segment-context-C4LH6WVZ.js",
+    "file": "iron-front-defense-3d/_next/static/chunks/layout-segment-context-B8njaBgu.js",
     "name": "layout-segment-context",
     "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -51,7 +51,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "iron-front-defense-3d/_next/static/chunks/index--6rcMbRF.js",
+    "file": "iron-front-defense-3d/_next/static/chunks/index-atL0UaRr.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
